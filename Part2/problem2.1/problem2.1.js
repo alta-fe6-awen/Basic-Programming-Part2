@@ -1,5 +1,7 @@
 // input
-let input1 = 6;
-let input2 = 20;
-
-// Your Code Here
+let Bilangan = 20;
+	for (let i = Bilangan ; i >0; i-- ) {
+		if (Bilangan % i == 0) {
+			console.log(i);
+		}
+	}
