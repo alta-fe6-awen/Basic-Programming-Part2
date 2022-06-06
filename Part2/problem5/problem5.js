@@ -1,6 +1,17 @@
 function exponentiation(x, n) {
-  // Your Code Here
+
+  	let result = x**n;
+
+    if (x < 0 || n < 0) {
+
+  	return "wrong input";
+	  } else {
+
+	  return result;
+	
+	}
 }
+
 
 console.log(exponentiation(2, 3)); // 8
 console.log(exponentiation(2, 12)); // 4096

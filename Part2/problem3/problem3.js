@@ -1,5 +1,15 @@
 function primeNumber(number) {
-  // Your Code Here
+	let pembagi =0;
+  for (let i = 0; i <= number; i++) {
+  	if (number % i == 0) {
+  		pembagi++
+  	}
+  }
+  if (pembagi == 2 ) {
+  	return true;
+  }else{
+  	return false;
+  }
 }
 
 console.log(primeNumber(11)); // true
